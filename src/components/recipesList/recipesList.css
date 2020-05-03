@@ -1,0 +1,11 @@
+.recipes-list-title {
+    text-align: center;
+    margin: 100px 0;
+    font-size: 40px;
+    color: #BC986A;
+}
+
+ul.recipes-list {
+    list-style: none;
+    padding-left: 0;
+}
