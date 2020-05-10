@@ -1,0 +1,87 @@
+.top-bar {
+    height: 60px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #8D8741;
+    position: fixed;
+    background-color: white;
+    z-index: 100;
+    box-shadow: #CCCCCC 0 0 10px;
+}
+
+.top-bar-wrapper {
+    height: 60px;
+}
+
+.logo {
+    height: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    white-space: nowrap;
+    float: left;
+}
+
+.search-form {
+    display: inline-block;
+}
+
+.logo-img {
+    display: inline-block;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.logo-title {
+    padding-top: 3px;
+    display: inline-block;
+    height: 100%;
+    line-height: 60px;
+    font-family: "DejaVu Sans", Monospaced, sans-serif;
+    font-size: 30px;
+    color: #BC986A;
+    margin-top: 0;
+}
+
+
+.search-form {
+    float: right;
+    height: 100%;
+    width: 100%;
+    max-width: 350px;
+    line-height: 60px;
+}
+
+.search-form button, .search-form input {
+    line-height: 30px;
+    font-size: 100%;
+    outline: 0;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+
+.search-form input {
+    padding: 3px 5px;
+    border: 1px solid #d7d5cf;
+    width: 100%;
+    max-width: 270px;
+    border-radius: 5px 0 0 5px;
+    margin: 0;
+}
+
+.search-form input::placeholder {
+    color: #CCC;
+}
+
+.search-form button {
+    background-color: white;
+    border: 1px solid #CDC791;
+    border-radius: 0 5px 5px 0;
+    border-left: none;
+    padding: 3px 10px;
+}
+
+.search-form button:hover {
+    background-color: #CDC791;
+}
