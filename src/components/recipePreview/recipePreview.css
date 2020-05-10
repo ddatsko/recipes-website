@@ -6,6 +6,7 @@
     transition-duration: .3s;
     display: inline-block;
     margin: 30px;
+
 }
 
 .recipe-preview:hover {

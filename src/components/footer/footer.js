@@ -1,14 +1,9 @@
 import React from "react";
+import './footer.css'
 
 const Footer = () => {
     return (
-        <footer className={'page-footer'} style={{
-            height: '50px',
-            'background-color': '#999',
-            color: 'white',
-            'text-align': 'center',
-            'line-height': '50px'
-        }}>
+        <footer className={'page-footer'}>
             © Denys Datsko
         </footer>
     )

@@ -75,13 +75,9 @@
 }
 
 .search-form button {
-
-
     background-color: white;
     border: 1px solid #CDC791;
     border-radius: 0 5px 5px 0;
-
-
     border-left: none;
     padding: 3px 10px;
 }

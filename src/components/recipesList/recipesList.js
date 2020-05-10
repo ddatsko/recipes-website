@@ -5,10 +5,9 @@ import RecipePreview from "../recipePreview";
 export default class RecipesList extends React.Component {
     constructor(props) {
         super(props);
-        let {title, recipes} = props;
         this.state = {
-            title: title || '',
-            recipes: recipes || []
+            title: props.title || '',
+            recipes: props.recipes || []
         }
     }
 
