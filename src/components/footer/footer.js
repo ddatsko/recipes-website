@@ -3,7 +3,7 @@ import './footer.css'
 
 const Footer = () => {
     return (
-        <footer className={'page-footer'}>
+        <footer className="page-footer">
             © Denys Datsko
         </footer>
     )

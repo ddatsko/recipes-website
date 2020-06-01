@@ -13,13 +13,14 @@ export default class RecipesList extends React.Component {
 
     render() {
         return (
-            <div className={'recipes-list-block'}>
-                <div className={'container'}>
-                    <h2 className={'recipes-list-title'}>{this.state.title}</h2>
-                    <ul className={'recipes-list'}>
+            <div className="recipes-list-block">
+                <div className="container">
+                    <h2 className="recipes-list-title">{this.state.title}</h2>
+                    <ul className="recipes-list">
                         {this.state.recipes.map((recipe) => (
                             <RecipePreview description={recipe.description} likes={recipe.likes}
                                            photoSource={recipe.photoSource} title={recipe.title}
+                                           id={recipe.id}
                             > </RecipePreview>
                         ))}
                     </ul>

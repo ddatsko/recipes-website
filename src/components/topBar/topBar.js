@@ -1,20 +1,23 @@
 import React from 'react'
 import './topBar.css'
 import Logo from './logo.png'
+import {Link} from 'react-router-dom'
 
 const TopBar = () => (
     <div className={'top-bar-wrapper'}>
         <div className={'top-bar'}>
             <div className={'container'}>
-                <div className={'logo'}>
-                    <img src={Logo} alt={'logotype'} className={'logo-img'}/>
-                    <div className={'logo-title'}>
-                        Cook together
+                <Link to="/">
+                    <div className={'logo'}>
+                        <img src={Logo} alt={'logotype'} className={'logo-img'}/>
+                        <div className={'logo-title'}>
+                            Cook together
+                        </div>
                     </div>
-                </div>
-                <form action={'#'} className={'search-form'}>
-                    <input type={'text'} placeholder={'Dish or ingredient name'}/>
-                    <button type={'submit'}>🔎</button>
+                </Link>
+                <form action="/search" method="get" className="top-bar-form">
+                    <input name="query"  type="text" placeholder="Dish or ingredient name"/>
+                    <button type="submit">🔎</button>
                 </form>
             </div>
         </div>
