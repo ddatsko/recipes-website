@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+    color: #BC986A;
+    margin: 60px 0;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+div.recipe-view {
+    text-align: center;
+}
+
+
+img.title-photo {
+    width: 800px;
+    border-radius: 10px;
+    display: block;
+    margin: 80px auto;
+}
+
+span.likes {
+    float: left;
+    color: #777777;
+    font-size: 20px;
+}
+span.cooking-time {
+    float: right;
+    color: #777777;
+    font-size: 20px;
+}
+
+p.dish-description {
+    display: block;
+    margin-top: 150px;
+    color: #333333;
+    font-size: 24px;
+}
+
+ul.ingredients {
+    margin: 50px;
+    display: block;
+    list-style: disc;
+    text-align: left;
+    color: #8D8741;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+ol.steps {
+    text-align: left;
+    line-height: 2em;
+    font-size: 20px;
+}

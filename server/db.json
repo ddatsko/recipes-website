@@ -1,0 +1,50 @@
+{
+  "recipes": [
+    {
+      "title":  "Varenyky",
+      "description": "One of the best dishes of Ukrainian cuisine",
+      "likes": 100,
+      "time": 10,
+      "photoSource": "varenyky.jpg",
+      "id": 0,
+      "ingredients": ["flour", "water", "egg", "some filling", "salt"],
+      "steps": [
+        "Замісити тісто",
+        "Зліпити вареники",
+        "Зварити"
+      ]
+    },
+    {
+      "title":  "Borshch",
+      "description": "Extremely tasty soup. As a legend states, it is favourite dish of God",
+      "likes": 87,
+      "time": 15,
+      "photoSource": "borshch.jpg",
+      "id": 1,
+      "ingredients": ["beef", "cabbage", "potato", "carrot", "onion", "beetroot", "bay leave", "water"],
+      "steps": [
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popu",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popu",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popu"
+      ]
+    },
+    {
+      "title":  "Buckwheat",
+      "description": "So simple, but so tasty...",
+      "likes": 70,
+      "time": 10,
+      "photoSource": "buckwheat.jpg",
+      "id": 2,
+      "ingredients": ["buckwheat", "water", "butter"]
+    },
+    {
+      "title":  "Коктейль 'Заробітчанин' від чотирирукого бармена",
+      "description": "",
+      "likes": 751,
+      "time": 1,
+      "photoSource": "zarobitchanyn.jpg",
+      "id": 3,
+      "ingredients": ["горілка `Nemiroff`", "пиво 'Staropramen'"]
+    }
+  ]
+}
